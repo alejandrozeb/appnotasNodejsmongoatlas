@@ -27,6 +27,9 @@ aplicacion
 compass como phpmyadmin
 en la opcion shell te pide que tengas instalado mongo en tu computador.
 mongo "mongodb+srv://cluster0.7xxfx.mongodb.net/<dbname>" --username alejandro
-cambiamos por nustras credenciales
-
+cambiamos por nustras credenciales.
+y podemos usar todas las funcionalidades de moongo.
+show dbs
+podemos usar compass
+para mongo db
 */

@@ -28,8 +28,16 @@ compass como phpmyadmin
 en la opcion shell te pide que tengas instalado mongo en tu computador.
 mongo "mongodb+srv://cluster0.7xxfx.mongodb.net/<dbname>" --username alejandro
 cambiamos por nustras credenciales.
-y podemos usar todas las funcionalidades de moongo.
+y podemos usar todas las funcionalidades de moongo
+mongo "mongodb+srv://cluster0.7xxfx.mongodb.net/store" --username alejandro
+cluster que uso.
 show dbs
 podemos usar compass
 para mongo db
+podemos administrar los datos desde la nube en mongo atlas, desde editar las colleciones, crearlas, crear una bd todas las funcionalidades que se pueden relizar con la consola de mongodb
+tambien poemos conectarnos con mongodb compass(basada en electron), 
+mongodb+srv://alejandro:<password>@cluster0.7xxfx.mongodb.net/test
+debemos agregar nuestro password.
+esta interfaz grafica te permite hacer cosas basicas
+mongo db atlas te permite usar
 */

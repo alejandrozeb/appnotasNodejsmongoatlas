@@ -18,7 +18,7 @@ notesCtrl.createNewNote = async (req,res) =>{
 }
 
 notesCtrl.renderNotes = async (req,res) =>{
-    const notes = await  Note.find({user: req.user.id}).sort({createdAt: 'des'});
+    const notes = await  Note.find({user: req.user.id});
     //console.log(notes);
     res.render('notes/allnotes',{notes});//pasamos la info a la vista
 }
